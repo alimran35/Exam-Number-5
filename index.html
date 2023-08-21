@@ -1,0 +1,303 @@
+ 
+<!DOCTYPE html>
+<html lang="en" data-theme='light'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <title> shoping web side</title>
+
+    <style>
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+        .card{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        @media screen and (max-width: 1300px) {
+            .left-side-items-main{
+                flex-wrap: wrap;
+            }
+          }
+    </style>
+</head>
+<body>
+    <div class="bg-[#f9f6e2]">
+    <div class="hero-section flex-row md:flex-row sm:ml-24 lg:flex container 2xl mx-auto  items-center  justify-center  text-center ">
+        <div class="hero-desc sm:ml-24 max-w-2xl">
+            <h2 class="text-xl font-medium">---SALE FEVER---</h2>
+            <h1 class="text-4xl font-bold py-3">Purchase TK 200 or <br> above & get <span class="text-[#e527b2]">20% off</span> </h1>
+            <h3>Use Promo Code <span class="bg-[#e527b2] py-2 px-5 text-white rounded-md">SELL200</span></h3>
+        </div>
+        <div class="hero-img ml-24">
+            <img class="w-8/12 " src="images/Summer 1.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="main-section bg-gray-200 flex-row md:flex container 2xl  mx-auto justify-center gap-10    ">
+        <div class="left-side flex-grow-1">
+            <h2 class="text-3xl font-bold py-5">Kitchenware</h2 >
+            <div class="left-side-items-main  flex gap-5  ">
+              
+                <div class="left-side-single-item text-center bg_white" id="product1"  >
+                    <div class="card w-64 h-72 bg-white text-center p-5 rounded-xl cursor-pointer">
+                        <div class="flex justify-center bg-[#f3f3f3]">
+                            <figure><img src="images/prod1.png" /></figure>
+                        </div>
+                        
+                        <div class="card-body  p-2 px-8 ">
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                              </div>
+                          <h2 class="productName text-2xl" id="productName">Accessories</h2>
+                         <h3 class="price text-xl">39.00 Taka </h3>
+                        </div>
+                      </div>
+                </div>
+
+
+
+            
+                <div class="left-side-single-item text-center bg_white">
+                    <div class="card w-64 h-72   bg-white text-center p-5 rounded-xl cursor-pointer">
+                        <div class="flex justify-center bg-[#f3f3f3]">
+                            <figure><img src="images/prod2.png" /></figure>
+                        </div>
+                        
+                        <div class="card-body  p-2 px-8">
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                              </div>
+                          <h2 class="productName text-2xl">C. Glacius</h2>
+                          <h3 class="price  text-xl">49.00 Taka</h3>
+                        </div>
+                      </div>
+                </div>
+
+
+                <div class="left-side-single-item text-center bg_white">
+                    <div class="card w-64 h-72   bg-white text-center p-5 rounded-xl cursor-pointer">
+                        <div class="flex justify-center bg-[#f3f3f3]">
+                            <figure><img src="images/prod3.png" /></figure>
+                        </div>
+                        
+                        <div class="card-body  p-2 px-8">
+                            <div class="rating justify-center">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                              </div>
+                          <h2 class="productName text-2xl">Home Cooker</h2>
+                          <h3 class="price text-xl">260.00 Taka</h3>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+            <h2 class="text-3xl font-bold py-5">SportsWear</h2 >
+                <div class="left-side-items-main mb-5 flex gap-5 ">
+                  
+                    <div class="left-side-single-item text-center bg_white">
+                        <div class="card w-64 h-72   bg-white text-center p-5 rounded-xl cursor-pointer">
+                            <div class="flex justify-center bg-[#f3f3f3]">
+                                <figure><img src="images/prod4.png" /></figure>
+                            </div>
+                            
+                            <div class="card-body  p-2 px-8">
+                                <div class="rating justify-center">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                  </div>
+                              <h2 class="productName text-2xl">Sports Cap</h2>
+                              <h3 class="price text-xl">185.00 Taka</h3>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="left-side-single-item text-center bg_white">
+                        <div class="card w-64 h-72   bg-white text-center p-5 rounded-xl cursor-pointer">
+                            <div class="flex justify-center bg-[#f3f3f3]">
+                                <figure><img src="images/prod5.png" /></figure>
+                            </div>
+                            
+                            <div class="card-body  p-2 px-8">
+                                <div class="rating justify-center">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                  </div>
+                              <h2 class="productName text-2xl">Full Jersy</h2>
+                              <h3 class="price text-xl">249.00 Taka</h3>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="left-side-single-item text-center bg_white">
+                        <div class="card  w-64 h-72  bg-white text-center p-5 rounded-xl cursor-pointer">
+                            <div class="flex justify-center bg-[#f3f3f3]">
+                                <figure><img src="images/prod6.png" /></figure>
+                            </div>
+                            
+                            <div class="card-body  p-2 px-8">
+                                <div class="rating justify-center">
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                  </div>
+                              <h2 class="productName text-2xl">Sports Cats</h2>
+                              <h3 class="price text-xl">399.00 Taka</h3>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+
+                <h2 class="text-3xl font-bold py-5">Furniture</h2 >
+                    <div class="left-side-items-main mb-5 flex md:gap:5 lg: gap-5 flex-wrap ">
+                      
+                        <div class="left-side-single-item text-center bg_white">
+                            <div class="card w-64 h-72   bg-white text-center p-5 rounded-xl cursor-pointer">
+                                <div class="flex justify-center bg-[#f3f3f3]">
+                                    <figure><img src="images/prod7.png" /></figure>
+                                </div>
+                                
+                                <div class="card-body  p-2 px-8">
+                                    <div class="rating justify-center">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                      </div>
+                                  <h2 class="productName text-2xl">Single Chair</h2>
+                                  <h3 class="price text-xl">180.00 Taka</h3>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="left-side-single-item text-center bg_white">
+                            <div class="card  w-64 h-72  bg-white text-center p-5 rounded-xl cursor-pointer">
+                                <div class="flex justify-center bg-[#f3f3f3]">
+                                    <figure><img src="images/prod8.png" /></figure>
+                                </div>
+                                
+                                <div class="card-body  p-2 px-8">
+                                    <div class="rating justify-center">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                      </div>
+                                  <h2 class="productName text-2xl">Children Day</h2>
+                                  <h3 class="price text-xl">37.00 Taka</h3>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="left-side-single-item text-center bg_white">
+                            <div class="card  w-64 h-72  bg-white text-center p-5 rounded-xl cursor-pointer">
+                                <div class="flex justify-center bg-[#f3f3f3]">
+                                    <figure><img src="images/prod9.png" /></figure>
+                                </div>
+                                
+                                <div class="card-body  p-2 px-8">
+                                    <div class="rating justify-center">
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" checked />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-500" />
+                                      </div>
+                                  <h2 class="productName text-2xl">Flexible Sofa</h2>
+                                  <h3 class="price text-xl">300.00 Taka</h3>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+
+
+
+
+        </div>
+        <div class="right-side bg-red mt-20">
+            <div class="coupon card block p-5 ">
+                <h2 class="text-2xl py-5">Have coupon?</h2>
+                <div class="join ">
+                    <input id="promo" class="input input-bordered join-item outline-none focus:outline-none" placeholder="Have coupon?"/>
+                    <button class="btn join-item rounded-r-full bg-[#e527b2] text-white hover:bg-[#e527b2]"  id="promo-code" disabled>Apply</button>
+                  </div>
+            </div>
+
+
+
+
+            <div class="cart card block p-5 mt-10 mb-6 list-decimal pb-20" >
+                <ol class="list-decimal pl-5" id="purchase">
+                  
+                    
+                </ol>
+                <hr>
+                <div class="price flex mt-5">
+                    <h2 class="text-2xl " >Total price :</h2>
+                    <h2 class="text-2xl font-bold" id="totalProductValue">0</h2>
+                </div>
+                <div class="discount flex ">
+                    <h2 class="text-2xl " >Discount:</h2>
+                    <h2 class="text-2xl font-bold" id="discount-price">0</h2>
+                </div>
+                <div class="fainal-price flex ">
+                    <h2 class="text-2xl">Price:</h2>
+                    <h2 class="text-2xl font-bold " id="total-amount">0</h2>
+                </div>
+
+            </div>
+           <div class="flex justify-center -mt-14 ">
+            <button id="makePurchaseItem" onclick="my_modal_3.showModal() " onclick="bad()"  class=" btn join-item rounded bg-[#e527b2] text-white hover:bg-[#e527b2] px-8 z-10" disabled>Make Purchase</button>
+        
+<dialog id="my_modal_3" class="modal">
+  <form method="dialog" class="modal-box text-center">
+    <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" >✕</button>
+    <div class="flex justify-center">
+        <img src="images/congo.png" alt="">
+    </div>
+    
+    <h3 class="font-bold text-lg">Congratulation!</h3>
+    <div class="flex justify-center">
+        <button   onclick="bad()"  class=" btn join-item rounded bg-[#e527b2] text-white hover:bg-[#e527b2] px-8 z-10" >Go Home</button>
+
+    </div>
+  </form>
+</dialog>
+
+           </div>
+        </div>
+    </div>
+</body>
+<script src="js/java.js"></script>
+</html>
